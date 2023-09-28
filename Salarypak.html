@@ -1,0 +1,24 @@
+<html>
+ <script>
+ var standard_salary = 30000
+ var total_no_of_days = 20
+ var no1 = prompt("name of employee :")
+ var no2 = prompt("no. of days present :")
+ if(total_no_of_days==no2) {
+ document.write("<h3>","employee name :",no1, "<br>")
+ document.write("<h3>","salary : ", 30000)
+ }
+ else if(total_no_of_days>no2) {
+ var less_days = total_no_of_days-no2
+ var salary = 30000-(less_days*(1500))
+ document.write("<h3>","employee name :",no1, "<br>")
+ document.write("<h3>","salary : ", salary)
+ }
+ else {
+ var ot_days = no2-total_no_of_days
+ var salary = 30000+(ot_days*(1500))
+ document.write("<h3>","employee name :",no1, "<br>")
+ document.write("<h3>","salary : ", salary)
+ }
+ </script>
+</html>
